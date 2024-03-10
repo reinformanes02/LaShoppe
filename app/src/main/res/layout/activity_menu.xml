@@ -181,6 +181,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/text_categories"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="1.0" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 

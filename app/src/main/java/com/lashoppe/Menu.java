@@ -20,7 +20,10 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         TextView textViewSell = findViewById(R.id.textView2);
-        textViewSell.setOnClickListener(new View.OnClickListener() {
+        textViewSell.setOnClickListener(new View.OnClickListener()
+
+                val iconCategories = findViewById < ImageView > (R.id.icon_categories)
+                        iconCategories.setOnClickListener {
             @Override
             public void onClick(View v) {
                 // Start the new activity here
@@ -28,6 +31,13 @@ public class Menu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+            // Replace "DestinationActivity" with the name of your destination activity
+            val intent = Intent(this, DestinationActivity:: class.java)
+            startActivity(intent)
+        }
+    }
 
 
     }
