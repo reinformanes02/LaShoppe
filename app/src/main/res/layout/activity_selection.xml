@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_selection"
+    android:background="@color/simplebackgroundcolor">
+
+    <Button
+        android:id="@+id/button_2id"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:text="For Current Students"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_3id"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:text="For Faculty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_4id"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button"
+        android:text="For Alumni"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="257dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/logoname"
+        android:layout_width="196dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="664dp"
+        android:gravity="center"
+        android:text="Don't have an account?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="708dp"
+        android:gravity="center"
+        android:text="Sign Up here"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
